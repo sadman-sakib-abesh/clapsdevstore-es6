@@ -1,0 +1,553 @@
+
+#header{
+  background-color: rgb(253, 251, 251);
+  width: 100%;
+  height: 60px;
+  z-index: 9999;
+  position: sticky;
+  top: 0px;
+}
+#line a{
+  color: #030201;
+  text-decoration: 0px;
+}
+#alert{
+  position:fixed ;
+  background-color: rgb(255, 229, 180);
+  color: #fc8719;
+  width: 100%;
+  top:100px;
+  height:50px ;
+}
+
+#alert i{
+float: right;
+}
+
+#c-link{
+color: black;
+text-decoration: none;
+}
+#footer #line i{
+  font-size: larger;
+}
+#footer #line{
+  color: black;
+  width: 150px;
+  border-left: 2px solid black;
+  margin-left: 300px;
+  white-space: pre-wrap;
+}
+
+#footer{
+width: 100%;
+height: 100px;
+border-top: 1px solid rgb(156, 155, 155);
+background-color: rgb(243, 241, 241);
+color: rgb(20, 15, 15);
+}
+#header-1{
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  top: 45px;
+  position: sticky;
+  z-index: 9999;
+}
+
+
+#build-btn{
+  background-color: #fa7c06;
+  color: #030201;
+  text-decoration: none;
+  font-size: x-large;
+  border-radius: 20px;
+  border: 5px solid #fa7c06;
+  margin: 10%;
+}
+
+#build-btn:hover{
+  background-color: #d36906;
+  color: #030201;
+  text-decoration: none;
+  font-size: x-large;
+  border-radius: 20px;
+  border: 5px solid #d36906;
+  margin: 10%;
+}
+#section{
+  margin: 100px;
+font-size: larger;
+}
+
+
+#section #blog{
+  background-color:white;
+  border-bottom: 25px solid rgb(12, 11, 11);
+  box-shadow: 0 0px 8px 1px gray;
+  white-space: pre-wrap;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #030201;
+  padding: 20px;
+}
+
+#section #blog #b{
+  font-size: x-large;
+  color: #030201;
+}
+
+
+
+#section-2{
+  background-image: url('https://raw.githubusercontent.com/sadman-sakib-abesh/images/main/Logopit_1628524313086.png');
+ background-size: 100% 300px;
+ background-repeat: no-repeat;
+ width: 95%;
+ height: 500px;
+  margin: 30px;
+font-size: larger;
+}
+
+#section-2 b{
+  text-decoration:underline rgb(12, 11, 11);
+  font-size: xx-large;
+  text-align: center;
+ }
+
+
+#section b{
+ text-decoration:underline orange;
+ font-size: xx-large;
+}
+#build-div{
+  margin: 10%;
+  white-space: pre-wrap;
+  width:100px;
+  font-size: xx-large;
+  color: #f06408;
+}
+
+
+
+
+#cover{
+  background-image: url('https://raw.githubusercontent.com/sadman-sakib-abesh/images/main/Logopit_1628486883862.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height:300px;
+
+}
+
+#slide{
+  display: inline-block;
+  width:25%;
+  margin: 15px;
+text-align: center;
+}
+
+#slide-2{
+  height: 300px;
+ display: inline-block;
+}
+
+
+.link{
+  margin: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: orange;
+
+  
+}
+.active-1{
+  margin: 30px;
+  font-size: 20px;
+  text-decoration: none;
+background-color: orange;
+color: black;
+
+}
+
+
+
+#ad-1{
+  width: 15%;
+  border:1px solid rgb(189, 185, 185);
+  color: gray;
+  display: inline-block;
+  left: 5px;
+  position: absolute;
+  margin: 10px;
+}
+
+
+  #h-logo{
+    position:absolute;
+    top:-50px
+  }
+  
+  #animation-grid-1{
+    background-color: rgb(247, 127, 15);
+    height: 40%;
+    width: 2px;
+  position: fixed;
+  right: 20px;
+  bottom:-40%;
+  z-index: 9999;
+  }
+  
+  #animation-grid-2{
+    background-color: rgb(184, 181, 181);
+    height: 30%;
+    width: 2px;
+  position: fixed;
+  right: 27px;
+  bottom:-30%;
+  z-index: 9999;
+  }
+  
+  #animation-grid-3{
+    background-color: rgb(124, 121, 121);
+    height: 2px;
+    width: 40%;
+  position: fixed;
+  right: -40%;
+  bottom:20px;
+  z-index: 9999;
+  }
+  
+  #animation-grid-4{
+    background-color: rgb(252, 186, 111);
+    height: 2px;
+    width: 30%;
+  position: fixed;
+  right: -40%;
+  bottom:28px;
+  z-index: 9999;
+  }
+  
+  
+  /*animation*/
+  ::placeholder{
+    color: rgb(182, 162, 142);
+  }
+  #card #h3{
+    font-size: large;
+  color: #f07c0f;
+  text-decoration: line-through black;
+  }
+  #search-btn{
+    float: right;
+    text-decoration: none;
+    color: rgb(241, 229, 229);
+    background-color: rgb(238, 147, 43);
+    width: 30px;
+    height: 31px;
+    margin:7px;
+    padding-right: 7px;
+    border-right: 2px solid black;
+    border-radius: 2px;
+  }
+
+  #in-1{    
+    border-radius:2px;
+    border: 0px;
+    border-left: 2px solid black;
+    
+    margin:7px;
+    font-size: 25px;
+    width: 30%;
+    float: right;
+    
+    background-color: rgb(223, 223, 223);
+    }
+#btn-4{
+  background-color: #fcf9f5;
+  border:1px solid rgb(19, 18, 18);
+  border-radius: 5px;
+  width: 30%;
+}
+    #warning{
+      font-size: larger;
+      background-color: rgb(253, 225, 208);
+      border:2px solid rgb(253, 181, 123);
+      border-radius:5px;
+      width: 80%;
+      margin: 50px;
+      color: rgb(248, 157, 72);
+    }
+
+   
+    #in-5{
+      font-size: 20px;
+      width: 80%;
+      border:2px solid rgb(7, 6, 6);
+    }
+#head-form{
+  color: #f07c0f;
+}
+#span-1{
+display: inline-block;
+width:40%;
+height: 500px;
+background-image: url('https://raw.githubusercontent.com/sadman-sakib-abesh/images/main/Logopit_1628845614886.png');
+background-size:  400px 500px;
+color: #f8f2ec;
+vertical-align: top;
+font-size: large;
+}
+
+#span-1 a{
+  color: #f8f2ec;
+  text-decoration: none;
+}
+#span-2{
+  vertical-align: top;
+  width: 60%;
+  height: 600px;
+  display: inline-block;
+}
+
+#span-3{
+  display: inline-block;
+  width:40%;
+  height: 600px;
+  background-image: url('https://raw.githubusercontent.com/sadman-sakib-abesh/images/main/Logopit_1628856764810.png');
+  background-size:  400px 600px;
+  color: #f8f2ec;
+  vertical-align: top;
+  font-size: large;
+  }
+
+#span-3 a{
+  color: #f8f2ec;
+  text-decoration: none;
+}
+#span-4{
+  vertical-align: top;
+  width: 60%;
+  height: 600px;
+  display: inline-block;
+}
+
+#form{
+  box-shadow: 0px 1px 8px 1px #969494;
+width: 1000px;
+height:500px;
+}
+#form-2{
+  box-shadow: 0px 1px 8px 1px #969494;
+width: 1000px;
+height:600px;
+}
+
+#btn-1{
+  font-size: x-large;
+  border-radius: 2px;
+  border:0px;
+  background-color: rgb(238, 145, 23);
+}
+
+#card{
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 1px 8px 1px #969494;
+  display: inline-table;
+  margin: 60px;
+  transition: 0.3s;
+  border-left:5px solid rgb(14, 9, 2);
+  border-bottom: 3px solid orange;
+}
+#block{
+display: block;
+}
+#a{
+background-color: #faba5b;
+}
+
+#a-2{
+  color: #f07c0f;
+}
+
+
+#under-td{
+  text-decoration:2px line-through rgb(12, 11, 10);
+}
+
+#link{
+  color: #b86110;
+}
+
+table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+ 
+  border-collapse: collapse;
+  width:80% ;
+}
+
+#paypal{
+  font-size: 20px;
+  border:1px solid rgb(17, 18, 19);
+  border-radius: 5px;
+}
+
+#paypal i{
+  color: 
+#0099CC
+}
+
+#btn-3{
+  background-color: #f07c0f;
+  font-size: x-large;
+  color: black;
+  text-decoration: none;
+  border: 0px;
+  border-radius: 5px;
+}
+
+
+#about{
+  color: #030201;
+  text-decoration: 2px underline orange ;
+}
+#full{
+  margin: 10px;
+  font-size: large;
+}
+#card:hover{
+  width: 215px;
+  height:315px;
+  transition: 0.3s;
+  box-shadow: 0px 1px 8px 1px #969494;
+  display: inline-table;
+  margin: 60px;
+  border-left:5px solid rgb(14, 9, 2);
+  border-bottom: 3px solid orange;
+}
+#card button{
+  bottom: 0px;
+  font-size: larger;
+  
+    width: 90%;
+    border: 0px;
+    background-color: rgb(250, 161, 27);
+}
+#card a{
+ color: black;
+}
+
+#card b{
+  color: black;
+  font-size: larger;
+ }
+    #nav{
+      background-color:rgb(29, 28, 28) ;
+      height: 40px;
+      width: 350px;
+      left:100px;
+      position: absolute;
+    }
+    #i-bar-div{
+      background-color: rgb(236, 152, 55);
+    color: rgb(245, 243, 239);
+    font-size: 25px;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    }
+
+#confirm{
+  background-color: rgb(253, 248, 227);
+  position: fixed;
+    bottom: 60px;
+    left: 72px;
+    border: 1px solid rgb(161, 159, 159);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #f07c0f;
+    width:200px;
+    height:40px;
+}
+
+  #i-bar-1{
+    margin: 12px;
+    padding-right: 5px;
+    color: rgb(245, 243, 239);
+    font-size: 25px;
+    text-decoration: none;
+    }
+
+#s-div{
+  top:0px;
+  position: fixed;
+  background-color: black;
+  opacity: 0.7;
+  width: 0%;
+  height: 0%;
+  z-index: 9999;
+  color: aliceblue;
+  
+}
+#s-div span{
+  font-size: 20px;
+  color: aliceblue;
+  float: right;
+  margin: 15px;
+  
+}
+
+#s-div #in{
+  width: 0px;
+  font-size: 20px;
+  color: rgb(231, 148, 24);
+  background-color: transparent;
+  border-bottom: 5px solid rgb(241, 140, 6);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+  caret-color: rgb(255, 145, 0);
+  outline: 0px;
+  display: none;
+}
+#s-div ::placeholder{
+  text-align: center;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 63, 63); 
+
+  height: 10px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a09c98; 
+  transition: 1s;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+    #i-bar-2{
+      text-decoration: none;
+      margin: 5px;
+      position: absolute;
+      color: rgb(245, 243, 239);
+      font-size: 22px;
+      text-decoration: none;
+      }
+
+
+
+
+
